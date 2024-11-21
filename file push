@@ -1,3 +1,8 @@
 provider "azure_rm" {
-features = {}
+   features = {}
+}
+
+resource "azurerm_resource_group" "test" {
+   name = "Moses"
+   location = us-east-2"
 }
